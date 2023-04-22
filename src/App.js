@@ -1,3 +1,4 @@
+// imported all Components
 import './App.css';
 import Home from './components/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    {/* used react router dom library for routing perpose */}
         <Nav></Nav>
               <Routes>
               <Route path='/' element={ <Home></Home> }> </Route>
