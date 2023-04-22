@@ -28,7 +28,7 @@ const Buycards = () => {
             <div class="card" key={index} style={{ width : "350px" , margin : "0.5rem" }}>
             <img src={item.img} class="card-img-top" alt="..."/>
             <div className="card-body">
-                <h5 className="card-title">Cheapest Aartment</h5>
+                <h5 className="card-title">Cheapest Apartment</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <a href="#" className="btn btn-primary">Click hera to know more</a>
             </div>
