@@ -4,6 +4,7 @@ import {Link, NavLink} from "react-router-dom"
 export const Nav = () => {
   return (
     <>
+    {/* created  Nav and implimented sigle page application using react-router-dom library*/}
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
     <div className="container-fluid">
         <a class="navbar-brand c-red" href="#" style={{ color :"red" }}><Link to={"/"}>LOGO</Link></a>

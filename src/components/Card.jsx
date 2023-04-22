@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 const Card = () => {
+    //array contain img of card
     const [arr, setarr ] = useState([
         {
             img : "https://offers.freecharge.in/ICICIBank50/images/ICICIBank50.png"
@@ -21,6 +22,7 @@ const Card = () => {
   return (
     <>
     <div className='Offer' >
+        {/* //itearating untill we get all object of array */}
     { arr.map( (i, index)=> {
         return (
             <img src={i.img} className='OfferCard' key={index} width={"300px"} height={"300px"} style={{ margin : "2rem", }} alt="" />

@@ -1,7 +1,8 @@
 import React from 'react'
 
 const Login = () => {
-  return (
+  return ( 
+    // created simple form ui using bootsrap
     <div id='login' >
     <form style={{ width : "38rem" }}>
     <div className="mb-3">

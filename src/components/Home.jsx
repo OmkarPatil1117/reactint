@@ -5,7 +5,9 @@ import Dashboard from './Dashboard'
 const Home = () => {
   return (
     <>
+    {/* //imporing Dashboard Componets */}
     <Dashboard></Dashboard>
+    {/* //importing Card Component */}
     <Card></Card>
     </>
   )
