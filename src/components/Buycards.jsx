@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import Card from "../components/Card"
 
 const Buycards = () => {
     const [arr, setarr ] = useState([
@@ -34,6 +35,8 @@ const Buycards = () => {
             </div>
         )
      })}
+     <h1 style={{ textAlign : "center" , margin : "1rem" }}>Everything you nedd at one place</h1>
+     <Card></Card>
      </div>
      </>
 
