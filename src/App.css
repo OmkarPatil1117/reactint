@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* ===================== */
+.Dashboard {
+  background-image: url("https://www.ab-in-den-urlaub.de/magazin/wp-content/uploads/2019/08/1565701910_Singapur-Skyline.jpg");
+  height: 70vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainInp {
+  width: 60rem;
+}
+
+#inputM {
+  padding: 1rem;
+}
+
+.Offer {
+  padding: 1rem;
+}
+@media screen and (max-width:600px) {
+  #mainInp {
+    width: 100%;
+  }
+}
